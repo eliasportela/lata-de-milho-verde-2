@@ -43,7 +43,7 @@ Acesse 'src/controller/', copie e cole o script padrão (cidade.php) na mesma pa
 define('TABELABD', 'cidade');
 //nome da chave primaria
 define('PRIMARYKEY', 'id_cidade');
-```php
+```
 
 Se necessário criar o próprio select, no final da página altere o nome da rota
 
@@ -72,7 +72,7 @@ $app->get('/'.TABELABD.'-regiao', function(Request $request, Response $response)
 git clone https://github.com/eliasportela/lata-de-milho-verde-2.git
 cd lata-de-milho-verde-2/
 ```
-Instale o SlimPHP e dependencias com o comanda
+Instale o SlimPHP e dependencias com o comando
 
 ```sh
 composer install
